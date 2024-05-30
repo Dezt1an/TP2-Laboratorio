@@ -1,0 +1,26 @@
+body{
+    margin: 20px;
+    background-color: #b0c4de;
+    display: flex;
+    flex-direction: column;
+
+}
+.contenedor{
+    text-align: center;
+    font-size: larger;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    max-width: 600px;
+    position: static;
+    margin: auto;
+    border: 1px solid #262d36;
+    padding: 10px;
+}
+
+button{
+    padding: 10px;
+    background-color: #262d36;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    cursor: pointer;
+}
