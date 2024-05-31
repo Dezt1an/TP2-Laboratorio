@@ -1,0 +1,59 @@
+body {
+    margin: 20px;
+    background-color: #b0c4de;
+    
+}
+#titulo{
+    display: block;
+    font-size: 20px;
+    width: 1000px;
+    height: 70px;
+    padding-left: 230px;
+}
+.contenedor {
+    width: 1500px;
+    margin: auto;
+    display: flex;
+
+}
+.carta-usuario{
+    width: 400px;
+    border: 1px solid #262d36;
+    background-color: white;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carta-tarea{
+    width: 400px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 10px;
+    background-color: #262d36;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0048a0;
+    color: white;
+}
+.completada {
+color: #009623;
+}
+.no-completada {
+color: rgb(255, 0, 21);
+}
